@@ -12,7 +12,7 @@ public class WishMessageOperationsController {
 	
 	@GetMapping("/display")
 	public ResponseEntity<String> showWishMessage(){
-		return new ResponseEntity<String>("Good Morning JRTP",HttpStatus.OK);
+		return new ResponseEntity<String>("Good Morning JRTP 701",HttpStatus.OK);
 	}
 
 }
